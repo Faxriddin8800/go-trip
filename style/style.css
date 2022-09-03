@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    font-family: Rubik;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 50px;
+    background: #3E8989;
+}
+.list__form{
+  display: flex; 
+  align-items: center; 
+}
+
+.list {
+    display: flex;
+    column-gap: 30px;
+    padding-right: 380px;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: 0.4s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+}
+
+.link:hover {
+    border-bottom: 2px solid #fff
+}
+
+.header__input {
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+}
+
+.header__form {
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    border: transparent;
+}
+
+.header__btn {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 9px 14px;
+    background: #295E5E;
+    color: #FFFFFF;
+    border: transparent;
+    cursor: pointer;
+}
+
+.header__bottom {
+    height: 800px;
+    background: url(../image/pic.jpg) no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header__title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 95px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header__extra {
+    display: block;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 64px;
+}
+
+.more {
+    transition: 0.5s;
+    background: #B4436C;
+    border-radius: 30px;
+    padding: 14px 77px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF
+}
+
+.more:hover {
+    background: #fff;
+    color: #B4436C;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+main {
+    background: #E5E5E5;
+}
+
+.about {
+    padding-top: 80px;
+    padding-bottom: 97px;
+}
+
+.section__title {
+    font-family: Inter;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.about__content {
+    display: flex;
+    gap: 20px;
+}
+
+.about__text {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    max-width: 545px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about__text2 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    max-width: 545px;
+    width: 100%;
+}
+
+.tavar__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tavar__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding: 30px;
+    transition: 0.4s;
+}
+
+.tavar__name:hover {
+    color: #B4436C;
+}
+
+.tavar__img1 {
+    background: #EFEFEF;
+    padding: 1px 32px;
+}
+
+.tavar__img2 {
+    background: #EFEFEF;
+    padding: 77px 22px;
+}
+
+.tavar__img3 {
+    background: #EFEFEF;
+    padding: 75px 1px
+}
+
+.tavar__img4 {
+    background: #EFEFEF;
+    padding: 19px 0
+}
+
+.contacts__nomer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 124px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-family: Rubik;
+}
+.tex{
+    max-width: 555px;
+    width: 100%;
+}
+.adres{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__go{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background: #3E8989;
+    padding: 40px 50px 15px;
+    height: 150px;
+}
+.footer__list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 59px;
+}
+.footer__link {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer__yil span{
+    margin-left: 6px;
+}
+.footer__yil {
+    font-family: Rubik;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.menu__btn{
+    display: none;
+    font-size: 20px;
+    padding-bottom: 6px;
+    font-weight: 500;
+    background: #3E8989;
+    color: #EFEFEF;
+    border: none;
+}
